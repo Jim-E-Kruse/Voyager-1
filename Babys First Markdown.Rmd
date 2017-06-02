@@ -21,17 +21,19 @@ When you click the **Knit** button a document will be generated that includes bo
 summary(cars)
 summary(cars$dist) 
 Summary(cars$speed)
+summary(pressure)
 ##Couldnt get a third summary to go
 ```
 
 fig.heiht, fig.width
 
 
-
+## Plots
 You can also embed plots, for example:
 
 ```{r pressure,warning=TRUE}
 plot(pressure)
+plot(cars)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
